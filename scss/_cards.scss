@@ -1,0 +1,39 @@
+.promociones1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 40px;
+    .cardSemi{
+        background-color: $color-card1;
+        /*width: 25%;
+        margin-top: 10px;*/
+        width: 180px;
+        height: 340px;
+        padding: 50px;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+            img {  
+                height: 200px;  
+                width: 180px;
+                border: solid 5px lightseagreen;
+            
+        }    
+    }
+    .cardDiseño {
+        background-color: $color-card2;
+        /*width: 25%;
+        margin-top: 10px;*/
+        width: 180px;
+        height: 340px;
+        border: solid 2px pink;
+        padding: 50px;
+        display: inline-block;
+        vertical-align: middle;
+        img{
+            width: 180px;
+            border: solid 5px pink
+        }    
+    }
+
+}
