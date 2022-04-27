@@ -35,5 +35,18 @@
             border: solid 5px pink
         }    
     }
+}
 
+@media (max-width: 1023px) {
+    .promociones1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .promociones1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

@@ -13,7 +13,6 @@ table {
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   row-gap: 40px; }
-  
   .promociones1 .cardSemi {
     background-color: pink;
     /*width: 25%;
@@ -28,7 +27,6 @@ table {
       height: 200px;
       width: 180px;
       border: solid 5px lightseagreen; }
-
   .promociones1 .cardDiseño {
     background-color: lightseagreen;
     /*width: 25%;
@@ -42,6 +40,16 @@ table {
     .promociones1 .cardDiseño img {
       width: 180px;
       border: solid 5px pink; }
+
+@media (max-width: 1023px) {
+  .promociones1 {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 767px) {
+  .promociones1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
 
 .Titulo1 {
   display: grid;
@@ -83,3 +91,17 @@ li:hover {
 .beneficios {
   background-color: pink;
   font-size: 1.5rem; }
+
+footer {
+  display: grid;
+  justify-items: center; }
+
+@media (max-width: 1023px) {
+  #cursos {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 767px) {
+  #cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
