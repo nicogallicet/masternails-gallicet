@@ -81,10 +81,10 @@ li:hover {
       justify-items: center;
       font-size: 1.5rem; }
 
-.promociones {
+.promociones, footer {
   display: grid;
   justify-items: center; }
-  .promociones .promos {
+  .promociones .promos, footer .promos {
     background-color: lightseagreen;
     font-size: 2rem; }
 
@@ -92,10 +92,6 @@ li:hover {
 .beneficios {
   background-color: pink;
   font-size: 1.5rem; }
-
-footer {
-  display: grid;
-  justify-items: center; }
 
 @media (max-width: 1023px) {
   #cursos {
