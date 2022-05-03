@@ -296,5 +296,13 @@
     "xdg-basedir": "^4.0.0",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicogallicet/masternails-gallicet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicogallicet/masternails-gallicet/issues"
+  },
+  "homepage": "https://github.com/nicogallicet/masternails-gallicet#readme",
   "description": ""
 }
