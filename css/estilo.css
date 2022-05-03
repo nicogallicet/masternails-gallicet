@@ -88,6 +88,7 @@ li:hover {
     background-color: lightseagreen;
     font-size: 2rem; }
 
+/*mixin*/
 .beneficios {
   background-color: pink;
   font-size: 1.5rem; }

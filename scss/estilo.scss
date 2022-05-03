@@ -53,9 +53,15 @@ li:hover {
     }
 }
 
+/*mixin*/
+@mixin colorYfuente ($background-color, $font-size) {
+        background-color: $background-color;
+        font-size: $font-size;
+}
+
+
 .beneficios {
-    background-color: pink;
-    font-size: 1.5rem;
+    @include colorYfuente(pink, 1.5rem)
 }
 
 footer {
