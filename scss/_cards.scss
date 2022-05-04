@@ -1,3 +1,4 @@
+
 .promociones1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -17,8 +18,16 @@
                 height: 200px;  
                 width: 180px;
                 border: solid 5px lightseagreen;
-            
-        }    
+        }
+        a {
+            position: relative;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: none;
+            outline: none;
+            background-color: blue;
+            color: white;         
+            }  
     }
     .cardDiseño {
         background-color: $color-card2;
@@ -33,7 +42,16 @@
         img{
             width: 180px;
             border: solid 5px pink
-        }    
+        }
+        a {
+            position: relative;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: none;
+            outline: none;
+            background-color: blue;
+            color: white;         
+            }     
     }
 }
 
